@@ -59,12 +59,13 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.30</version>
+			<scope>provided</scope>
 		</dependency>
 		
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-we</artifactId>
+			<artifactId>spring-security-web</artifactId>
 			<version>3.2.6.RELEASE</version>
 		</dependency>
 		<dependency>
